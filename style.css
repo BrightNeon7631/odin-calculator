@@ -1,0 +1,136 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+button {
+    font-size: xx-large;
+    border-radius: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    border: 10px solid black;
+    border-radius: 20px;
+    box-shadow: 0 0 3rem #d6a70d;
+    margin: 100px;
+    width: 500px;
+    height: 500px;
+}
+
+#display {
+    border: 4px solid grey;
+    text-align: end;
+    height: 180px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    font-size: 55px;
+    border-radius: 10px;
+}
+
+.row {
+    display: flex;
+    height: 150px;
+}
+
+.element {
+    flex: 1;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+#ac, 
+#zero {
+    flex: 2.14; 
+}
+
+#percent {
+    background-color: lightgray;
+}
+
+.yellow {
+    background-color: rgb(243, 200, 7);
+}
+
+.hovered {
+    transform: scale(1);
+    border-color: #d41626;
+    box-shadow: 0 0 1rem #d41626;
+    background-color: #be9306;
+}
+
+.last-result {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+.equation-container {
+    width: 500px;
+    height: 20px;
+    display: flex;
+    border: 2px solid black;
+    background-color: rgb(243, 200, 7);
+    border-radius: 10px;
+    padding: 15px;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.grey:hover {
+    background-color: rgba(128, 128, 128, 0.473);
+}
+
+.dark-mode {
+    background-color: rgb(26, 26, 25);
+    color: white;
+}
+
+.dark-mode-display {
+    background-color: white;
+    color: black;
+}
+
+#dark-mode-btn {
+    font-size: 20px;
+    margin-top: 40px;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .flex-container {
+        margin: 0;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .equation-container {
+        width: 100%;
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    #display {
+        font-size: 38px;
+    }
+
+    #ac, 
+    #zero {
+        flex: 2.2; 
+    }
+}
