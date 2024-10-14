@@ -28,9 +28,7 @@ I started and finished this project in July 2022.
 
 ## Links
 
-[Live Demo](https://brightneon7631.github.io/odin-calculator/)
-
-[My Other Projects](https://brightneon7631.github.io/odin-scrimba-projects/)
+[Live Demo](https://bn7631-odin-calculator.pages.dev)
 
 ## Screenshots
 
@@ -45,5 +43,5 @@ I started and finished this project in July 2022.
 ## Deployment
 
 ```bash
-  git clone
+  git clone https://github.com/BrightNeon7631/odin-calculator.git
 ```
